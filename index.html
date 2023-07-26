@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гонки</title>
+
+    <link rel="stylesheet" href="./css/zero.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <h1>Рандомные гонки</h1>
+
+    <div class="container">
+        <div class="track track_one">
+            <img class="finish" src="./img/finish.svg" alt="">
+
+            <span>1</span>
+
+            <div class="line_long"></div>
+
+            <div class="line_short"></div>
+
+            <img class="car redCar" src="./img/redCar.png" alt="">
+        </div>
+        <div class="track track_two">
+            <img class="finish" src="./img/finish.svg" alt="">
+
+            <span>2</span>
+
+            <div class="line_long"></div>
+
+            <div class="line_short"></div>
+
+            <img class="car greyCar" src="./img/grayCar.png" alt="">
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="tablo">
+        <div class="tablo__elements">
+            <a class="animation" target="_blank" href="https://albina200.github.io/TurkeyForYou/">Пополнить счёт</a>
+
+            <p>Твой счёт: <span class="spanAccount">0</span> $</p>
+            <p>Твоя ставка: <span class="spanBet">0</span> $</p>
+
+            <div class="tablo__button__bid">
+                <div class="button__pluse-minus">
+                    <button class="button__plus">+10</button>
+                    <button class="button__minus">-10</button>
+                </div>
+                <button class="button__big button__bid-all">Поставить всё</button>
+            </div>
+
+            <h2>Кто победит?</h2>
+            <div class="tablo__button__who-win">
+                <div class="button__one-two">
+                    <button class="button__one">№1</button>
+                    <button class="button__two">№2</button>
+                </div>
+                <button class="button__start">Старт</button>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="management">
+        <div class="tablo">
+            <div class="tablo__elements">
+                <a class="animation" target="_blank" href="https://albina200.github.io/TurkeyForYou/">Пополнить счёт</a>
+
+                <button class="debt-back">Вернуть долг</button>
+
+
+                <div class="debt">
+                    <p>Ваш долг: <span></span></p>
+                </div>
+
+                <p>Твой счёт: <span class="spanAccount">0</span> $</p>
+                <p>Твоя ставка: <span class="spanBet">0</span> $</p>
+
+                <div class="tablo__button__bid">
+                    <div class="button__pluse-minus">
+                        <button class="button__plus">+10</button>
+                        <button class="button__minus">-10</button>
+                    </div>
+                    <button class="button__big button__bid-all">Поставить всё</button>
+                </div>
+
+                <h2>Кто победит?</h2>
+                <div class="tablo__button__who-win">
+                    <div class="button__one-two">
+                        <button class="button__one">№1</button>
+                        <button class="button__two">№2</button>
+                    </div>
+                    <button class="button__start">Старт</button>
+                </div>
+            </div>
+        </div>
+        <ol>
+
+        </ol>
+    </div>
+
+
+
+
+    <div class="modul-debt-back">
+        <h2>Укажите сумму возврата</h2>
+        <input placeholder="Введите сумму" type="number" min="1" onkeyup="this.value = this.value.replace(/[^0-9]/g,'');">
+        <button>Отправить</button>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
